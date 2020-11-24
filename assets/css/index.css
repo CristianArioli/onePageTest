@@ -1,0 +1,139 @@
+.container-fluid{
+    overflow: hidden;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: #1f1f1f;
+}
+
+.navbar .btnMenu a {
+    color: #e5e5e5 !important;
+    font-size: 0.92rem;
+}
+
+.navbar .btnMenu {
+    border-bottom: 6px solid transparent;
+}
+
+.navbar .btnMenu:hover {
+    background-color: #2a2a2a;
+    border-bottom: 6px solid #151515;
+}
+
+.navbar .socialIcons a {
+    color: #000000;
+}
+
+.navbar .socialIcons i{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 13px;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.contactIcons a{
+    color: #000000;
+}
+
+.contactIcons i{
+    background-color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.carouselForm > div{
+    background-color: #353535;
+}
+
+.carouselForm form .form-control{
+    background-color: #959595;
+    border: 1px solid black;
+    border-radius: 0% !important;
+}
+
+.carouselForm form .form-control::placeholder{
+    color: #4b4b4b;
+}
+
+.carouselForm form .submit{
+    border-radius: 0% !important;
+    background-color: #1f1f1f !important;
+    color: white !important;
+    border: 1px solid #1f1f1f;
+}
+
+.carouselFormBG{
+    background-image: url(../images/firstSlide.jpg);
+    background-size: 100% 100%;
+}
+
+#callToAction{
+    background-color: #1f1f1f;
+}
+
+#callToAction a {
+    border-radius: 0% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+#gallery{
+    background-color: #1f1f1f;
+}
+
+#news a {
+    border-radius: 0% !important;
+    background-color: #1f1f1f !important;
+    border: 1px solid black;
+}
+
+#contact{
+    background-image: url(../images/formBG.jpg);
+    background-size: cover;
+}
+
+#contact .form-control{
+    background-color: #959595;
+    border: 1px solid black;
+    border-radius: 0% !important;
+}
+
+#contact .form-control::placeholder{
+    color: #4b4b4b;
+}
+
+#contact form .submit{
+    border-radius: 0% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+#accordion{
+    color: #4b4b4b;
+    border: 1px solid black;
+}
+
+#accordion .card{
+    background-color: #959595;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+
+#accordion .btn:focus{
+    box-shadow: none;
+}
+
+footer{
+    background-color: #1f1f1f;
+}
